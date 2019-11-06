@@ -8,7 +8,7 @@
 a = 999
 b = 999
 d = 0
-while a >= 100 and b > 10 :
+while a >= 100 and b > 100 :
     c = a * b 
    # c = 906609
    
@@ -21,7 +21,7 @@ while a >= 100 and b > 10 :
     a = a -  1
     if a == 100:
         b = b - 1
-        a = 100
-print d
+        a = 999
+print"The largest palindrome made from the product of two 3-digit numbers is: \n" ,d
 
   
